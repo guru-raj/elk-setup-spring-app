@@ -205,3 +205,6 @@ Verify the connector's configuration, identify and stop any process that's liste
 2019-10-09 10:57:55.412  INFO 28480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
 2019-10-09 10:57:55.652  INFO 28480 --- [restartedMain] com.elk.SpringAppApplication             : Started SpringAppApplication in 1.64 seconds (JVM running for 328.744)
 2019-10-09 10:57:55.654  INFO 28480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-09 10:57:58.590  INFO 28480 --- [http-nio-9001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-09 10:57:58.592  INFO 28480 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-09 10:57:58.599  INFO 28480 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
