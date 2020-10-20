@@ -1,2 +1,7 @@
-# elk-setup-spring-app
+# ELK Spring App with Spark App Integration
 The following repo deals with implementation of elk with Spring Boot which uses AOP logs
+Update:
+. To replace maven with gradle
+. Add Spark Config to the app
+. Explore addition of Redis connector for java
+. Add unit test cases for some sample use cases
