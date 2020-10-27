@@ -25,7 +25,7 @@ public class ELKController {
 		}
 	}
 	
-	@PostMapping(value="messgae/{messageVal}")
+	@PostMapping(value="message/{messageVal}")
 	public ResponseEntity<String> postMessageValue(@PathVariable ("messageVal") String messageVal) {
 		try {
 			//MessageTemplate msg = new MessageTemplate(messageVal, "1");
@@ -36,7 +36,7 @@ public class ELKController {
 		}
 	}
 	
-	@DeleteMapping(value="messgae/{messageId}")
+	@DeleteMapping(value="message/{messageId}")
 	public ResponseEntity<String> deleteMessageIdValue(@PathVariable ("messageId") String messageId) {
 		try {
 			//MessageTemplate msg = new MessageTemplate(messageVal, "1");

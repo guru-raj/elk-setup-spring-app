@@ -2,7 +2,7 @@ package com.elk.model;
 
 import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
+//@AllArgsConstructor
 public class MessageTemplate {
 	
 	private String message;
